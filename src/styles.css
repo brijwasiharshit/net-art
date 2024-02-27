@@ -1,0 +1,156 @@
+.header{
+    display: flex;
+    justify-content: center;
+  }
+.logo-box > img{
+    height: 72px;
+}
+a{
+    color: black;
+}
+
+  .body-lower-div :not(.rule){
+    margin-left: 20px;
+  }
+.body-upper-div > img{
+    height: 475px;
+    margin-top: 25px;
+}
+.body-upper-div{
+    display: flex;
+    justify-content:space-around;
+}
+.body-upper-div-txt{
+    width: 58%;
+}
+.App{
+    background: linear-gradient(#FFFFFF, #FFF8AA);
+}
+.people-img{
+    height:360px;
+    width: 100%;
+}
+.body-lower-div{
+    margin-left: 4%;
+}
+.body-lower-div > img{
+    width: 80%;
+    text-align: center;
+    justify-content: space-between;
+}
+.txt-blw{
+    margin:auto;
+    padding-left: 250px;
+}
+hr{
+    height: 2px;
+    background-color:red;
+}
+
+.small-text{
+    font-size:16px;
+}
+.body-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin-left:15px ;
+    margin-right: 15px;
+}  
+.footer{
+    background-color: #EC3237;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px;
+    
+    padding: 20px 24px 30px 24px;
+}
+.segment-container {
+    display: inline-block;
+}
+.icon-rounded{
+    display: inline;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius:25px;
+    padding: 6px;
+}
+.toll-free{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.internet{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+    .App{
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+    .header{
+        width:100%;
+        margin-left: 20px;
+        display: flex;
+        justify-content: left;
+    }
+    .centered-text{
+        font-size: 12px;
+    }
+    .body-upper-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .toll-free{
+        width : 20px;
+        height : 20px;
+    }
+    .body-upper-div-txt{
+        width: 98%;
+    }
+    .body-upper-div > img{
+        display: none;
+        height: 200px;
+        width:100px;
+        margin: 0 auto 0 auto;
+    }
+    .body-upper-div-txt{
+        padding: 2px;
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    .txt-blw{
+        padding: 0px;
+    }
+   .small-text{
+    font-size: 12px;
+   }
+   .centered-text{
+    text-align: center;
+   }
+   .on-small-device{
+    font-size: 10px;
+   }
+   .body-bottom{
+    font-size: 12px;
+   }
+   .footer{
+    height: 25px;
+   }
+   .footer > span{
+    margin: 5px;
+    padding : 5px;
+    display: block;
+   }
+  }
+
+
+  
+
